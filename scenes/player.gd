@@ -2,7 +2,9 @@ extends CharacterBody2D
 class_name Player
 
 @export_category("Stats")
-@export var speed: int = 400
+@export var current_speed: int = 400
+@export var base_speed: int = 400
+@export var sprint_speed: int = 550
 
 @onready var animation_tree: AnimationTree = $AnimationTree
 @onready var animation_playback: AnimationNodeStateMachinePlayback = $AnimationTree["parameters/playback"]
@@ -19,13 +21,18 @@ func _physics_process(_delta: float) -> void:
 	var input_dir = Input.get_vector("left", "right", "up", "down")
 	
 	if input_dir.length_squared() > 0.01:
-		velocity = input_dir.normalized() * speed
+		velocity = input_dir.normalized() * current_speed
 		last_direction = input_dir.normalized()
 		
 		if Input.is_action_pressed("left"):
 			$Sprite2D.flip_h = true
 		else:
 			$Sprite2D.flip_h = false
+			
+		if Input.is_action_pressed("sprint"):
+			current_speed = sprint_speed
+		else:
+			current_speed = base_speed
 
 		animation_tree.set("parameters/walk/blend_position", last_direction)
 		animation_tree.set(IS_MOVING, true)
