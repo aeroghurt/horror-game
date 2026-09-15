@@ -1,8 +1,12 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1789478098
+::res://::1789478545
+floors-walls02.png::CompressedTexture2D::2728964039274406880::1789478505::1789478617::1::::<><><>0<>0<>7da3198d64dd67915aa2427d7ec7c7ec<>res://.godot/imported/floors-walls02.png-edd85ac9558c310c4eec9a2ebdf000ee.ctex::
+furniture03.png::CompressedTexture2D::4195144161005615403::1789478502::1789478617::1::::<><><>0<>0<>e6c972c17635d69ea7890b66c4fbeb57<>res://.godot/imported/furniture03.png-236836e41b6e77295c48ad1daa6691f0.ctex::
 icon.svg::CompressedTexture2D::5653505140951467421::1787113266::1787113571::1::::<><><>0<>0<>822cff418d4e86e41f1f084259aabc0a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 main.tscn::PackedScene::3791226112347045705::1787113266::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1787113266::0::1::::<><><>0<>0<><>::
+small-items02.png::CompressedTexture2D::212581805649406276::1789478500::1789478617::1::::<><><>0<>0<>713947f5b35e702982e0ea0d7dbb95e9<>res://.godot/imported/small-items02.png-53aeaac78f684b0808ebf413397b5ae8.ctex::
+test.txt::TextFile::-1::1789478114::0::1::::<><><>0<>0<><>::
 ::res://addons/::1787113266
 ::res://addons/godot_super-wakatime/::1787113266
 api_key_prompt.tscn::PackedScene::3919262858641749045::1787113266::0::1::::<><><>0<>0<><>::
