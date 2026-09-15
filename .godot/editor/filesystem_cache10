@@ -1,12 +1,6 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1789478545
-floors-walls02.png::CompressedTexture2D::2728964039274406880::1789478505::1789478617::1::::<><><>0<>0<>7da3198d64dd67915aa2427d7ec7c7ec<>res://.godot/imported/floors-walls02.png-edd85ac9558c310c4eec9a2ebdf000ee.ctex::
-furniture03.png::CompressedTexture2D::4195144161005615403::1789478502::1789478617::1::::<><><>0<>0<>e6c972c17635d69ea7890b66c4fbeb57<>res://.godot/imported/furniture03.png-236836e41b6e77295c48ad1daa6691f0.ctex::
-icon.svg::CompressedTexture2D::5653505140951467421::1787113266::1787113571::1::::<><><>0<>0<>822cff418d4e86e41f1f084259aabc0a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.tscn::PackedScene::3791226112347045705::1787113266::0::1::::<><><>0<>0<><>::
+::res://::1789508221
 README.md::TextFile::-1::1787113266::0::1::::<><><>0<>0<><>::
-small-items02.png::CompressedTexture2D::212581805649406276::1789478500::1789478617::1::::<><><>0<>0<>713947f5b35e702982e0ea0d7dbb95e9<>res://.godot/imported/small-items02.png-53aeaac78f684b0808ebf413397b5ae8.ctex::
-test.txt::TextFile::-1::1789478114::0::1::::<><><>0<>0<><>::
 ::res://addons/::1787113266
 ::res://addons/godot_super-wakatime/::1787113266
 api_key_prompt.tscn::PackedScene::3919262858641749045::1787113266::0::1::::<><><>0<>0<><>::
@@ -16,3 +10,13 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1787113266::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1787113266::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1787113266::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1787113266::0::1::::<>RefCounted<><>0<>0<><>::
+::res://assets/::1789482562
+floors-walls02.png::CompressedTexture2D::2728964039274406880::1789478505::1789482216::1::::<><><>0<>0<>4b91e31ff438e235afb34a4d8d58cbe6<>res://.godot/imported/floors-walls02.png-5563d4866d9ce820240896a955225a45.ctex::
+furniture03.png::CompressedTexture2D::4195144161005615403::1789478502::1789482216::1::::<><><>0<>0<>6923a023c646e8b56a82541eca97a3e9<>res://.godot/imported/furniture03.png-c99c5ab07d189d3ddfcb5bfb1e6be7e5.ctex::
+icon.svg::CompressedTexture2D::5653505140951467421::1787113266::1789482216::1::::<><><>0<>0<>3c31a83adae849f96d98426b33ebe990<>res://.godot/imported/icon.svg-56083ea2a1f1a4f1e49773bdc6d7826c.ctex::
+player.png::CompressedTexture2D::2733649541115122162::1789482401::1789482562::1::::<><><>0<>0<>23ca5a410a41ee31d118697915d20259<>res://.godot/imported/player.png-be2216fcaabb5c62aa2466cd9a5726a8.ctex::
+small-items02.png::CompressedTexture2D::212581805649406276::1789478500::1789482219::1::::<><><>0<>0<>876cd613b0ef06795c3d0033aabdde18<>res://.godot/imported/small-items02.png-310f90747b16e786b9967ea747ea20b2.ctex::
+::res://scenes/::1789483065
+main.tscn::PackedScene::3791226112347045705::1789482246::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png
+player.gd::GDScript::5489490926902537896::1789482273::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::2143232599493037541::1789483065::0::1::::<><><>0<>0<><>::uid://ckhfd4ivqxx8s::::res://scenes/player.gd<>uid://be7g2qxj1euac::::res://assets/player.png
