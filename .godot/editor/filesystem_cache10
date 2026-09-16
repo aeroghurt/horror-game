@@ -1,4 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
+<<<<<<< Updated upstream
 ::res://::1789556516
 README.md::TextFile::-1::1787113266::0::1::::<><><>0<>0<><>::
 ::res://addons/::1787113266
@@ -20,3 +21,22 @@ small-items02.png::CompressedTexture2D::212581805649406276::1789478500::17894822
 main.tscn::PackedScene::3791226112347045705::1789556504::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png<>uid://5sgy0k2htp7b::::res://scenes/player.tscn
 player.gd::GDScript::5489490926902537896::1789511103::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
 player.tscn::PackedScene::2143232599493037541::1789512091::0::1::::<><><>0<>0<><>::uid://ckhfd4ivqxx8s::::res://scenes/player.gd<>uid://be7g2qxj1euac::::res://assets/player.png
+=======
+::res://::1789500272
+floors-walls02.png::CompressedTexture2D::2728964039274406880::1789488160::1789488493::1::::<><><>0<>0<>7da3198d64dd67915aa2427d7ec7c7ec<>res://.godot/imported/floors-walls02.png-edd85ac9558c310c4eec9a2ebdf000ee.ctex::
+furniture03.png::CompressedTexture2D::4195144161005615403::1789488160::1789488493::1::::<><><>0<>0<>e6c972c17635d69ea7890b66c4fbeb57<>res://.godot/imported/furniture03.png-236836e41b6e77295c48ad1daa6691f0.ctex::
+icon.svg::CompressedTexture2D::5653505140951467421::1787242535::1789488493::1::::<><><>0<>0<>822cff418d4e86e41f1f084259aabc0a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.tscn::PackedScene::3791226112347045705::1789488160::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://floors-walls02.png
+README.md::TextFile::-1::1787242535::0::1::::<><><>0<>0<><>::
+small-items02.png::CompressedTexture2D::212581805649406276::1789488160::1789488493::1::::<><><>0<>0<>713947f5b35e702982e0ea0d7dbb95e9<>res://.godot/imported/small-items02.png-53aeaac78f684b0808ebf413397b5ae8.ctex::
+test.txt::TextFile::-1::1787242535::0::1::::<><><>0<>0<><>::
+::res://addons/::1787242535
+::res://addons/godot_super-wakatime/::1787242535
+api_key_prompt.tscn::PackedScene::3919262858641749045::1787242535::0::1::::<><><>0<>0<><>::
+counter.tscn::PackedScene::6849360014225833986::1787242535::0::1::::<><><>0<>0<><>::
+decompressor.gd::GDScript::513498479588648040::1787242535::0::1::::<>RefCounted<><>0<>0<><>::
+godot_super-wakatime.gd::GDScript::6277149880384411866::1787242535::0::1::::<>EditorPlugin<><>0<>1<><>::
+plugin.cfg::TextFile::-1::1787242535::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1787242535::0::1::::<><><>0<>0<><>::
+utils.gd::GDScript::5251015809120159908::1787242535::0::1::::<>RefCounted<><>0<>0<><>::
+>>>>>>> Stashed changes
