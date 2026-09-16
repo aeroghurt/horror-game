@@ -1,2 +1,2 @@
 # horror-game
-[Practice Repo Link]((https://github.com/Maloka2010/Practice.git)
+[Practice Repo Link](https://github.com/Maloka2010/Practice.git)
