@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1789508221
+::res://::1789556516
 README.md::TextFile::-1::1787113266::0::1::::<><><>0<>0<><>::
 ::res://addons/::1787113266
 ::res://addons/godot_super-wakatime/::1787113266
@@ -16,7 +16,7 @@ furniture03.png::CompressedTexture2D::4195144161005615403::1789478502::178948221
 icon.svg::CompressedTexture2D::5653505140951467421::1787113266::1789482216::1::::<><><>0<>0<>3c31a83adae849f96d98426b33ebe990<>res://.godot/imported/icon.svg-56083ea2a1f1a4f1e49773bdc6d7826c.ctex::
 player.png::CompressedTexture2D::2733649541115122162::1789482401::1789482562::1::::<><><>0<>0<>23ca5a410a41ee31d118697915d20259<>res://.godot/imported/player.png-be2216fcaabb5c62aa2466cd9a5726a8.ctex::
 small-items02.png::CompressedTexture2D::212581805649406276::1789478500::1789482219::1::::<><><>0<>0<>876cd613b0ef06795c3d0033aabdde18<>res://.godot/imported/small-items02.png-310f90747b16e786b9967ea747ea20b2.ctex::
-::res://scenes/::1789483065
-main.tscn::PackedScene::3791226112347045705::1789482246::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png
-player.gd::GDScript::5489490926902537896::1789482273::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::2143232599493037541::1789483065::0::1::::<><><>0<>0<><>::uid://ckhfd4ivqxx8s::::res://scenes/player.gd<>uid://be7g2qxj1euac::::res://assets/player.png
+::res://scenes/::1789556504
+main.tscn::PackedScene::3791226112347045705::1789556504::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png<>uid://5sgy0k2htp7b::::res://scenes/player.tscn
+player.gd::GDScript::5489490926902537896::1789511103::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::2143232599493037541::1789512091::0::1::::<><><>0<>0<><>::uid://ckhfd4ivqxx8s::::res://scenes/player.gd<>uid://be7g2qxj1euac::::res://assets/player.png
