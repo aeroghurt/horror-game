@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://du6lbdeo6jaoi"]
+
+[ext_resource type="Script" uid="uid://l6t84dtrygjd" path="res://countdown.gd" id="1_ep8tu"]
+
+[node name="countdown" type="Control" unique_id=2102542876]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_ep8tu")
+
+[node name="Label" type="Label" parent="." unique_id=633535032]
+texture_filter = 1
+layout_mode = 1
+offset_left = 689.0
+offset_top = -77.0
+offset_right = 744.0
+offset_bottom = -43.0
+theme_override_font_sizes/font_size = 32
+text = "0:00"
+
+[node name="Timer" type="Timer" parent="." unique_id=1394824706]
