@@ -12,7 +12,6 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
 	label.text = "%02d:%02d" % time_left()
-	print("%02d:%02d" % time_left())
 
 
 func time_left():

@@ -491,12 +491,15 @@ texture = ExtResource("1_o5qli")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_0xm2m")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o4x5r"]
+size = Vector2(128, 24.5)
+
 [node name="main" type="Node2D" unique_id=183152306]
 texture_filter = 1
 
-[node name="Control" type="CanvasLayer" parent="." unique_id=304158390]
+[node name="UI" type="CanvasLayer" parent="." unique_id=304158390]
 
-[node name="countdown" parent="Control" unique_id=2102542876 instance=ExtResource("3_sugp2")]
+[node name="countdown" parent="UI" unique_id=2102542876 instance=ExtResource("3_sugp2")]
 offset_left = 366.0
 offset_top = 124.0
 offset_right = 366.0
@@ -516,3 +519,20 @@ tile_set = SubResource("TileSet_o4x5r")
 texture_filter = 1
 position = Vector2(373.99442, 228.02441)
 scale = Vector2(4, 4)
+
+[node name="Doors" type="StaticBody2D" parent="." unique_id=1783629308]
+
+[node name="bedroomDoor" type="CollisionShape2D" parent="Doors" unique_id=1249341528]
+position = Vector2(449, -179)
+shape = SubResource("RectangleShape2D_o4x5r")
+
+[node name="masterBedroomDoor" type="CollisionShape2D" parent="Doors" unique_id=1367859237]
+position = Vector2(71, 254.00003)
+rotation = -1.5876392
+scale = Vector2(0.99999994, 0.99999994)
+shape = SubResource("RectangleShape2D_o4x5r")
+
+[node name="bathroomDoor" type="CollisionShape2D" parent="Doors" unique_id=1629959584]
+position = Vector2(965.00006, -0.99999905)
+rotation = -1.5731915
+shape = SubResource("RectangleShape2D_o4x5r")
