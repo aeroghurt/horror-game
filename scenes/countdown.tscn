@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://du6lbdeo6jaoi"]
 
-[ext_resource type="Script" uid="uid://l6t84dtrygjd" path="res://countdown.gd" id="1_ep8tu"]
+[ext_resource type="Script" uid="uid://l6t84dtrygjd" path="res://scripts/countdown.gd" id="1_c8cft"]
 
 [node name="countdown" type="Control" unique_id=2102542876]
 layout_mode = 3
 anchors_preset = 0
-script = ExtResource("1_ep8tu")
+script = ExtResource("1_c8cft")
 
 [node name="Label" type="Label" parent="." unique_id=633535032]
 texture_filter = 1
