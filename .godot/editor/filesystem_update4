@@ -1,2 +1,6 @@
 res://scenes/main.tscn
-res://scripts/countdown.gd
+res://interaction/interaction area/interactionArea.tscn
+res://scenes/player.tscn
+res://interaction/interaction area/interaction_area.gd
+res://interaction/interactionManager.tscn
+res://interaction/interaction_manager.gd

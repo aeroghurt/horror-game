@@ -1,11 +1,11 @@
+Label
+Area2D
 StaticBody2D
 CollisionShape2D
-Area2D
 CanvasLayer
 Control
 Timer
 Node2D
-Label
 AnimationPlayer
 CharacterBody2D
 AnimationTree

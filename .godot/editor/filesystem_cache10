@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1789570041
+::res://::1789684475
 README.md::TextFile::-1::1789566663::0::1::::<><><>0<>0<><>::
 ::res://addons/::1787113266
 ::res://addons/godot_super-wakatime/::1787113266
@@ -17,10 +17,16 @@ icon.svg::CompressedTexture2D::5653505140951467421::1787113266::1789482216::1:::
 player.png::CompressedTexture2D::2733649541115122162::1789482401::1789482562::1::::<><><>0<>0<>23ca5a410a41ee31d118697915d20259<>res://.godot/imported/player.png-be2216fcaabb5c62aa2466cd9a5726a8.ctex::
 PPMondwest-Regular.otf::FontFile::7419794937176372283::1784476513::1789560354::1::::<><><>0<>0<>0402ef705a219d6c8c400c84c9eb1dba<>res://.godot/imported/PPMondwest-Regular.otf-222a61c9ed245c2f49b9b81469c029f7.fontdata::
 small-items02.png::CompressedTexture2D::212581805649406276::1789478500::1789482219::1::::<><><>0<>0<>876cd613b0ef06795c3d0033aabdde18<>res://.godot/imported/small-items02.png-310f90747b16e786b9967ea747ea20b2.ctex::
-::res://scenes/::1789567395
+::res://interaction/::1789684475
+interactionManager.tscn::PackedScene::3769827132425775200::1789684368::0::1::::<><><>0<>0<><>::
+interaction_manager.gd::GDScript::2196652997086281852::1789684435::0::1::::<>Node2D<><>0<>0<><>::
+::res://interaction/interaction area/::1789684144
+interactionArea.tscn::PackedScene::53448435941854660::1789684144::0::1::::<><><>0<>0<><>::uid://bmroddbh2ndxe::::res://interaction/interaction area/interaction_area.gd
+interaction_area.gd::GDScript::3264636783918450134::1789684089::0::1::::interactionArea<>Area2D<><>0<>0<><>::
+::res://scenes/::1789684475
 countdown.tscn::PackedScene::8627704471357284572::1789567394::0::1::::<><><>0<>0<><>::uid://l6t84dtrygjd::::res://scripts/countdown.gd
-main.tscn::PackedScene::3791226112347045705::1789567395::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png<>uid://5sgy0k2htp7b::::res://scenes/player.tscn<>uid://du6lbdeo6jaoi::::res://scenes/countdown.tscn
-player.tscn::PackedScene::2143232599493037541::1789567392::0::1::::<><><>0<>0<><>::uid://ckhfd4ivqxx8s::::res://scripts/player.gd<>uid://be7g2qxj1euac::::res://assets/player.png
-::res://scripts/::1789567394
-countdown.gd::GDScript::837287073154142397::1789566545::0::1::::<>Control<><>0<>0<><>::
+main.tscn::PackedScene::3791226112347045705::1789683884::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png<>uid://5sgy0k2htp7b::::res://scenes/player.tscn<>uid://du6lbdeo6jaoi::::res://scenes/countdown.tscn
+player.tscn::PackedScene::2143232599493037541::1789683984::0::1::::<><><>0<>0<><>::uid://ckhfd4ivqxx8s::::res://scripts/player.gd<>uid://be7g2qxj1euac::::res://assets/player.png
+::res://scripts/::1789684443
+countdown.gd::GDScript::837287073154142397::1789570189::0::1::::<>Control<><>0<>0<><>::
 player.gd::GDScript::5489490926902537896::1789511103::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
