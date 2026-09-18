@@ -1,2 +1,5 @@
 res://scenes/main.tscn
 res://scripts/bedroom_door.gd
+res://scenes/master_bedroom_door.gd
+res://scenes/player.tscn
+res://scenes/bathroom_door.gd

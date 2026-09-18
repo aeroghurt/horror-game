@@ -5,6 +5,8 @@
 [ext_resource type="PackedScene" uid="uid://du6lbdeo6jaoi" path="res://scenes/countdown.tscn" id="3_sugp2"]
 [ext_resource type="PackedScene" uid="uid://05j133viwcy" path="res://interaction/interaction area/interactionArea.tscn" id="4_jyhfs"]
 [ext_resource type="Script" uid="uid://cp4wekc4b2bk" path="res://scripts/bedroom_door.gd" id="4_tbgi4"]
+[ext_resource type="Script" uid="uid://jabi4qet686c" path="res://scripts/master_bedroom_door.gd" id="6_tefeu"]
+[ext_resource type="Script" uid="uid://dvdolwnunmohh" path="res://scripts/bathroom_door.gd" id="7_o6xl0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ig7tw"]
 texture = ExtResource("1_o5qli")
@@ -493,8 +495,23 @@ texture = ExtResource("1_o5qli")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_0xm2m")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_7w5kx"]
-size = Vector2(127, 81)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o4x5r"]
+size = Vector2(128, 112)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tefeu"]
+size = Vector2(126, 58)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o6xl0"]
+size = Vector2(128.0375, 117.196236)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tipki"]
+size = Vector2(127.75375, 62.50471)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_85g3d"]
+size = Vector2(128.01874, 93.756966)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_choun"]
+size = Vector2(130.0219, 64.64581)
 
 [node name="main" type="Node2D" unique_id=183152306]
 texture_filter = 1
@@ -530,12 +547,56 @@ position = Vector2(449, -179)
 collision_layer = 3
 collision_mask = 3
 
-[node name="bedroomDoorCollisionOnlyRange" type="CollisionShape2D" parent="bedroomDoor/interactionArea" unique_id=1925044258]
-position = Vector2(0.5, 0.5)
-shape = SubResource("RectangleShape2D_7w5kx")
+[node name="bedroomDoorCollisionOnlyRange" type="CollisionShape2D" parent="bedroomDoor/interactionArea" unique_id=178272557]
+position = Vector2(-1, -5)
+shape = SubResource("RectangleShape2D_o4x5r")
 script = ExtResource("4_tbgi4")
 
-[node name="bedroomDoorCollision" type="CollisionShape2D" parent="bedroomDoor" unique_id=659547719]
-position = Vector2(449.5, -178.5)
-shape = SubResource("RectangleShape2D_7w5kx")
+[node name="bedroomDoorCollision" type="CollisionShape2D" parent="bedroomDoor" unique_id=924062106]
+position = Vector2(448, -184)
+shape = SubResource("RectangleShape2D_tefeu")
 script = ExtResource("4_tbgi4")
+
+[node name="masterBedroomDoor" type="StaticBody2D" parent="." unique_id=2102587284]
+position = Vector2(254, 705)
+rotation = -1.5711868
+scale = Vector2(0.99999994, 1.0239235)
+collision_layer = 3
+collision_mask = 2
+
+[node name="interactionArea" parent="masterBedroomDoor" unique_id=391765582 instance=ExtResource("4_jyhfs")]
+position = Vector2(449, -179)
+collision_layer = 3
+collision_mask = 3
+
+[node name="masterBedroomDoorCollisionOnlyRange" type="CollisionShape2D" parent="masterBedroomDoor/interactionArea" unique_id=789484099]
+position = Vector2(0.07116699, -2.482956)
+shape = SubResource("RectangleShape2D_o6xl0")
+script = ExtResource("6_tefeu")
+
+[node name="masterBedroomDoorCollision" type="CollisionShape2D" parent="masterBedroomDoor" unique_id=1707662076]
+position = Vector2(448.94812, -177.57642)
+shape = SubResource("RectangleShape2D_tipki")
+script = ExtResource("6_tefeu")
+
+[node name="bathroomDoor" type="StaticBody2D" parent="." unique_id=1722927100]
+position = Vector2(1147.0001, 449)
+rotation = -1.5711868
+scale = Vector2(0.99999994, 1.0239235)
+collision_layer = 3
+collision_mask = 2
+
+[node name="interactionArea" parent="bathroomDoor" unique_id=1394382863 instance=ExtResource("4_jyhfs")]
+position = Vector2(449, -179)
+collision_layer = 3
+collision_mask = 3
+
+[node name="bathroomDoorCollisionOnlyRange" type="CollisionShape2D" parent="bathroomDoor/interactionArea" unique_id=1887677935]
+position = Vector2(0.06988421, 4.3533325)
+shape = SubResource("RectangleShape2D_85g3d")
+script = ExtResource("7_o6xl0")
+
+[node name="bathroomDoorCollision" type="CollisionShape2D" parent="bathroomDoor" unique_id=1901664157]
+position = Vector2(450.06833, -175.74152)
+shape = SubResource("RectangleShape2D_choun")
+script = ExtResource("7_o6xl0")

@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://be7g2qxj1euac" path="res://assets/player.png" id="2_g2els"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_qhqgy"]
+radius = 9.055386
 
 [sub_resource type="Animation" id="Animation_qhqgy"]
 length = 0.001
