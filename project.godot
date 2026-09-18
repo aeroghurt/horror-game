@@ -17,7 +17,8 @@ config/icon="res://assets/icon.svg"
 
 [autoload]
 
-InteractionManager="*uid://btyercoif1wse"
+interactionManager="*uid://btyercoif1wse"
+Global="*uid://bghjyppyl08a2"
 
 [display]
 

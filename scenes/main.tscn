@@ -3,6 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://be46vyybyl1hs" path="res://assets/floors-walls02.png" id="1_o5qli"]
 [ext_resource type="PackedScene" uid="uid://5sgy0k2htp7b" path="res://scenes/player.tscn" id="2_0wfyh"]
 [ext_resource type="PackedScene" uid="uid://du6lbdeo6jaoi" path="res://scenes/countdown.tscn" id="3_sugp2"]
+[ext_resource type="PackedScene" uid="uid://05j133viwcy" path="res://interaction/interaction area/interactionArea.tscn" id="4_jyhfs"]
+[ext_resource type="Script" uid="uid://cp4wekc4b2bk" path="res://scripts/bedroom_door.gd" id="4_tbgi4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ig7tw"]
 texture = ExtResource("1_o5qli")
@@ -491,8 +493,8 @@ texture = ExtResource("1_o5qli")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_0xm2m")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_o4x5r"]
-size = Vector2(128, 24.5)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7w5kx"]
+size = Vector2(127, 81)
 
 [node name="main" type="Node2D" unique_id=183152306]
 texture_filter = 1
@@ -520,19 +522,12 @@ texture_filter = 1
 position = Vector2(373.99442, 228.02441)
 scale = Vector2(4, 4)
 
-[node name="Doors" type="StaticBody2D" parent="." unique_id=1783629308]
-
-[node name="bedroomDoor" type="CollisionShape2D" parent="Doors" unique_id=1249341528]
+[node name="interactionArea" parent="." unique_id=2004431230 instance=ExtResource("4_jyhfs")]
 position = Vector2(449, -179)
-shape = SubResource("RectangleShape2D_o4x5r")
+collision_layer = 3
+collision_mask = 3
 
-[node name="masterBedroomDoor" type="CollisionShape2D" parent="Doors" unique_id=1367859237]
-position = Vector2(71, 254.00003)
-rotation = -1.5876392
-scale = Vector2(0.99999994, 0.99999994)
-shape = SubResource("RectangleShape2D_o4x5r")
-
-[node name="bathroomDoor" type="CollisionShape2D" parent="Doors" unique_id=1629959584]
-position = Vector2(965.00006, -0.99999905)
-rotation = -1.5731915
-shape = SubResource("RectangleShape2D_o4x5r")
+[node name="bedroomDoor" type="CollisionShape2D" parent="interactionArea" unique_id=1925044258]
+position = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_7w5kx")
+script = ExtResource("4_tbgi4")
