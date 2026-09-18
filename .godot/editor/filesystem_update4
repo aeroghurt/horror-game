@@ -1,8 +1,2 @@
-res://interaction/interaction area/interactionArea.tscn
-res://interaction/interactionManager.tscn
-res://interaction/interaction_manager.gd
-res://interaction/interaction area/interaction_area.gd
 res://scenes/main.tscn
-res://scenes/bedroom_door.gd
 res://scripts/bedroom_door.gd
-res://scripts/global.gd

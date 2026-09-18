@@ -522,12 +522,20 @@ texture_filter = 1
 position = Vector2(373.99442, 228.02441)
 scale = Vector2(4, 4)
 
-[node name="interactionArea" parent="." unique_id=2004431230 instance=ExtResource("4_jyhfs")]
+[node name="bedroomDoor" type="StaticBody2D" parent="." unique_id=168892910]
+collision_mask = 2
+
+[node name="interactionArea" parent="bedroomDoor" unique_id=2004431230 instance=ExtResource("4_jyhfs")]
 position = Vector2(449, -179)
 collision_layer = 3
 collision_mask = 3
 
-[node name="bedroomDoor" type="CollisionShape2D" parent="interactionArea" unique_id=1925044258]
+[node name="bedroomDoorCollisionOnlyRange" type="CollisionShape2D" parent="bedroomDoor/interactionArea" unique_id=1925044258]
 position = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_7w5kx")
+script = ExtResource("4_tbgi4")
+
+[node name="bedroomDoorCollision" type="CollisionShape2D" parent="bedroomDoor" unique_id=659547719]
+position = Vector2(449.5, -178.5)
 shape = SubResource("RectangleShape2D_7w5kx")
 script = ExtResource("4_tbgi4")
