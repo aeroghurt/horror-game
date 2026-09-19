@@ -14,6 +14,7 @@ config/name="scrollbound"
 run/main_scene="uid://buaq673iyr04d"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://assets/icon.svg"
+run/name="scrollbound"
 
 [autoload]
 

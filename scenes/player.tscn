@@ -211,10 +211,12 @@ transitions = ["Start", "idle", SubResource("AnimationNodeStateMachineTransition
 graph_offset = Vector2(20.219934, -38.625)
 
 [node name="player" type="CharacterBody2D" unique_id=1083520140 groups=["player"]]
+y_sort_enabled = true
 collision_layer = 2
 script = ExtResource("1_3vyb7")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1376941726]
+position = Vector2(0, -15)
 texture = ExtResource("2_g2els")
 hframes = 4
 vframes = 6
@@ -223,7 +225,7 @@ vframes = 6
 texture_filter = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=466970393]
-position = Vector2(0, 4)
+position = Vector2(0, -4)
 shape = SubResource("CircleShape2D_qhqgy")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=600452516]
