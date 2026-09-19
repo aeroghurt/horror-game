@@ -1,5 +1,9 @@
+res://scenes/death_screen.tscn
 res://scenes/main.tscn
-res://scripts/bedroom_door.gd
-res://scenes/master_bedroom_door.gd
-res://scenes/player.tscn
-res://scenes/bathroom_door.gd
+res://scripts/countdown.gd
+res://scenes/countdown.tscn
+res://scenes/death_screen.gd
+res://interaction/interaction area/interaction_area.gd
+res://interaction/interaction_manager.gd
+res://interaction/interactionManager.tscn
+res://scripts/master_bedroom_door.gd

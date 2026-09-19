@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1789746480
+::res://::1789786470
 README.md::TextFile::-1::1789566663::0::1::::<><><>0<>0<><>::
 ::res://addons/::1787113266
 ::res://addons/godot_super-wakatime/::1787113266
@@ -23,14 +23,14 @@ interaction_manager.gd::GDScript::2196652997086281852::1789736501::0::1::::<>Nod
 ::res://interaction/interaction area/::1789731030
 interactionArea.tscn::PackedScene::53448435941854660::1789731030::0::1::::<><><>0<>0<><>::uid://bmroddbh2ndxe::::res://interaction/interaction area/interaction_area.gd
 interaction_area.gd::GDScript::3264636783918450134::1789731002::0::1::::interactionArea<>Area2D<><>0<>0<><>::
-::res://scenes/::1789746577
+::res://scenes/::1789747527
 countdown.tscn::PackedScene::8627704471357284572::1789567394::0::1::::<><><>0<>0<><>::uid://l6t84dtrygjd::::res://scripts/countdown.gd
-main.tscn::PackedScene::3791226112347045705::1789746891::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png<>uid://5sgy0k2htp7b::::res://scenes/player.tscn<>uid://du6lbdeo6jaoi::::res://scenes/countdown.tscn<>uid://05j133viwcy::::res://interaction/interaction area/interactionArea.tscn<>uid://jabi4qet686c::::res://scripts/master_bedroom_door.gd<>uid://dvdolwnunmohh::::res://scenes/bathroom_door.gd
+main.tscn::PackedScene::3791226112347045705::1789747527::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png<>uid://5sgy0k2htp7b::::res://scenes/player.tscn<>uid://du6lbdeo6jaoi::::res://scenes/countdown.tscn<>uid://05j133viwcy::::res://interaction/interaction area/interactionArea.tscn<>uid://cp4wekc4b2bk::::res://scripts/bedroom_door.gd<>uid://jabi4qet686c::::res://scripts/master_bedroom_door.gd<>uid://dvdolwnunmohh::::res://scripts/bathroom_door.gd
 player.tscn::PackedScene::2143232599493037541::1789745680::0::1::::<><><>0<>0<><>::uid://ckhfd4ivqxx8s::::res://scripts/player.gd<>uid://be7g2qxj1euac::::res://assets/player.png
-::res://scripts/::1789746480
+::res://scripts/::1789746891
+bathroom_door.gd::GDScript::8640291758894576413::1789746401::0::1::::<>Node2D<><>0<>0<><>::
 bedroom_door.gd::GDScript::173143659514236464::1789743718::0::1::::<>Node2D<><>0<>0<><>::
 countdown.gd::GDScript::837287073154142397::1789570189::0::1::::<>Control<><>0<>0<><>::
 global.gd::GDScript::2822594513916818519::1789735694::0::1::::<>Node<><>0<>0<><>::
 master_bedroom_door.gd::GDScript::631776144188711628::1789745932::0::1::::<>Node2D<><>0<>0<><>::
 player.gd::GDScript::5489490926902537896::1789511103::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
-bathroom_door.gd::GDScript::8640291758894576413::1789746401::0::1::::<>Node2D<><>0<>0<><>::

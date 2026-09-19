@@ -1,7 +1,9 @@
+Node2D
+Button
+MenuButton
+Label
 CollisionShape2D
 StaticBody2D
-Node2D
-Label
 Area2D
 CanvasLayer
 Control
@@ -10,5 +12,3 @@ AnimationPlayer
 CharacterBody2D
 AnimationTree
 Camera2D
-Sprite2D
-TileMapLayer

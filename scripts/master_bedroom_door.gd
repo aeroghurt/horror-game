@@ -8,8 +8,6 @@ extends Node2D
 var state = false
 
 
-
-
 func _ready() -> void:
 	interaction_area.interact = Callable(self, "_on_interact")
 

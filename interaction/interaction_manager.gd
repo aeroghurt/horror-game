@@ -1,19 +1,18 @@
 extends Node2D
 
 
-@onready var player = get_tree().get_first_node_in_group("player")
 @onready var label: Label = $Label
 
 
 const base_text = "[E] TO "
 
 # Stores areas that are being detected by the player at the moment
-var active_areas = []
-var can_interact = true
+var active_areas: Array
+var can_interact: bool = true
 
 
 func _ready() -> void:
-	pass # Replace with function body.
+	pass
 
 
 func _process(_delta: float) -> void:
@@ -48,6 +47,7 @@ func unregister_area(area: interactionArea):
 # to see which one is closest to the player in case two
 # areas are detected by the player at once
 func _sort_by_distance_to_player(area1, area2):
+	var player = get_tree().get_first_node_in_group("player")
 	var area1_to_player = player.global_position.distance_to(area1.global_position)
 	var area2_to_player = player.global_position.distance_to(area2.global_position)
 	return area1_to_player < area2_to_player
@@ -62,3 +62,8 @@ func _input(event):
 			await active_areas[0].interact.call()
 			await get_tree().create_timer(1.0).timeout
 			can_interact = true
+
+
+func reset():
+	active_areas.clear()
+	can_interact = true
