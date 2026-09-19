@@ -1,3 +1,4 @@
+TileMapLayer
 Node2D
 Button
 MenuButton
@@ -11,4 +12,3 @@ Timer
 AnimationPlayer
 CharacterBody2D
 AnimationTree
-Camera2D
