@@ -10,9 +10,9 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1787113266::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1787113266::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1787113266::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1787113266::0::1::::<>RefCounted<><>0<>0<><>::
-::res://assets/::1789795671
+::res://assets/::1789796298
 floors-walls02.png::CompressedTexture2D::2728964039274406880::1789795680::1789795681::1::::<><><>0<>0<>4b91e31ff438e235afb34a4d8d58cbe6<>res://.godot/imported/floors-walls02.png-5563d4866d9ce820240896a955225a45.ctex::
-furniture03.png::CompressedTexture2D::4195144161005615403::1789478502::1789482216::1::::<><><>0<>0<>6923a023c646e8b56a82541eca97a3e9<>res://.godot/imported/furniture03.png-c99c5ab07d189d3ddfcb5bfb1e6be7e5.ctex::
+furniture03.png::CompressedTexture2D::4195144161005615403::1789796324::1789796327::1::::<><><>0<>0<>6923a023c646e8b56a82541eca97a3e9<>res://.godot/imported/furniture03.png-c99c5ab07d189d3ddfcb5bfb1e6be7e5.ctex::
 icon.svg::CompressedTexture2D::5653505140951467421::1787113266::1789482216::1::::<><><>0<>0<>3c31a83adae849f96d98426b33ebe990<>res://.godot/imported/icon.svg-56083ea2a1f1a4f1e49773bdc6d7826c.ctex::
 player.png::CompressedTexture2D::2733649541115122162::1789482401::1789482562::1::::<><><>0<>0<>23ca5a410a41ee31d118697915d20259<>res://.godot/imported/player.png-be2216fcaabb5c62aa2466cd9a5726a8.ctex::
 PPMondwest-Regular.otf::FontFile::7419794937176372283::1784476513::1789560354::1::::<><><>0<>0<>0402ef705a219d6c8c400c84c9eb1dba<>res://.godot/imported/PPMondwest-Regular.otf-222a61c9ed245c2f49b9b81469c029f7.fontdata::
@@ -23,10 +23,10 @@ interaction_manager.gd::GDScript::2196652997086281852::1789791589::0::1::::<>Nod
 ::res://interaction/interaction area/::1789787620
 interactionArea.tscn::PackedScene::53448435941854660::1789731030::0::1::::<><><>0<>0<><>::uid://bmroddbh2ndxe::::res://interaction/interaction area/interaction_area.gd
 interaction_area.gd::GDScript::3264636783918450134::1789787620::0::1::::interactionArea<>Area2D<><>0<>0<><>::
-::res://scenes/::1789795452
+::res://scenes/::1789795913
 countdown.tscn::PackedScene::8627704471357284572::1789787252::0::1::::<><><>0<>0<><>::uid://l6t84dtrygjd::::res://scripts/countdown.gd
 death_screen.tscn::PackedScene::3704689708222476572::1789792094::0::1::::<><><>0<>0<><>::uid://c6d3fxq7r7il8::::res://scripts/death_screen.gd
-main.tscn::PackedScene::3791226112347045705::1789795452::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png<>uid://5sgy0k2htp7b::::res://scenes/player.tscn<>uid://du6lbdeo6jaoi::::res://scenes/countdown.tscn<>uid://b01fn8ugyf1kh::::res://assets/furniture03.png<>uid://da8grec7t6dk::::res://assets/small-items02.png<>uid://05j133viwcy::::res://interaction/interaction area/interactionArea.tscn<>uid://cp4wekc4b2bk::::res://scripts/bedroom_door.gd<>uid://jabi4qet686c::::res://scripts/master_bedroom_door.gd<>uid://dvdolwnunmohh::::res://scripts/bathroom_door.gd
+main.tscn::PackedScene::3791226112347045705::1789795913::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png<>uid://5sgy0k2htp7b::::res://scenes/player.tscn<>uid://du6lbdeo6jaoi::::res://scenes/countdown.tscn<>uid://b01fn8ugyf1kh::::res://assets/furniture03.png<>uid://da8grec7t6dk::::res://assets/small-items02.png<>uid://05j133viwcy::::res://interaction/interaction area/interactionArea.tscn<>uid://cp4wekc4b2bk::::res://scripts/bedroom_door.gd<>uid://jabi4qet686c::::res://scripts/master_bedroom_door.gd<>uid://dvdolwnunmohh::::res://scripts/bathroom_door.gd
 player.tscn::PackedScene::2143232599493037541::1789745680::0::1::::<><><>0<>0<><>::uid://ckhfd4ivqxx8s::::res://scripts/player.gd<>uid://be7g2qxj1euac::::res://assets/player.png
 ::res://scripts/::1789792093
 bathroom_door.gd::GDScript::8640291758894576413::1789746401::0::1::::<>Node2D<><>0<>0<><>::
