@@ -225,7 +225,7 @@ vframes = 6
 texture_filter = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=466970393]
-position = Vector2(0, -4)
+position = Vector2(0, -9)
 shape = SubResource("CircleShape2D_qhqgy")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=600452516]
