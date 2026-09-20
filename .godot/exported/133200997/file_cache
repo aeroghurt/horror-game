@@ -4,5 +4,5 @@ res://interaction/interaction area/interactionArea.tscn::d6a7c53e487aef1d11719d1
 res://interaction/interactionManager.tscn::d87d83fa27edabc7368d376db4ac2fbe::1789791092::res://.godot/exported/133200997/export-552331a1b28b0f572e9e6b5b7638f1b4-interactionManager.scn
 res://scenes/countdown.tscn::ce2a06f93ffe945b50e095d47defa3b1::1789787252::res://.godot/exported/133200997/export-7a84bb80cc3965e8137a61dd2844e310-countdown.scn
 res://scenes/death_screen.tscn::cff395e28fea29f13657ff431b3b0174::1789792094::res://.godot/exported/133200997/export-da697a7ce36191eb82c84ca9320d9702-death_screen.scn
-res://scenes/main.tscn::b32216dd5a731cfbaf26006ed886c319::1789804318::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://scenes/main.tscn::0c5cec836adcd6241176fb9aa77fea4f::1789942806::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
 res://scenes/player.tscn::f5fcd292a8e9e2d9b7a55f7b68422e73::1789804338::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
