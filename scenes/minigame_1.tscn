@@ -1,6 +1,23 @@
 [gd_scene format=3 uid="uid://bqh3sjxc27dgs"]
 
 [ext_resource type="Script" uid="uid://c0b6qm5741ps4" path="res://scripts/minigame_1.gd" id="1_tk6fs"]
+[ext_resource type="Texture2D" uid="uid://b1auql804vhq6" path="res://assets/map/wall.png" id="2_og05i"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_og05i"]
+texture = ExtResource("2_og05i")
+0:0/0 = 0
+1:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_o4x5r"]
+sources/0 = SubResource("TileSetAtlasSource_og05i")
 
 [node name="minigame1" type="Node2D" unique_id=877077236]
 script = ExtResource("1_tk6fs")
+
+[node name="Button" type="Button" parent="." unique_id=1446944938]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Reset Game"
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=720993920]
+tile_set = SubResource("TileSet_o4x5r")
