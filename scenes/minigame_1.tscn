@@ -14,10 +14,22 @@ sources/0 = SubResource("TileSetAtlasSource_og05i")
 [node name="minigame1" type="Node2D" unique_id=877077236]
 script = ExtResource("1_tk6fs")
 
-[node name="Button" type="Button" parent="." unique_id=1446944938]
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1777834154]
+offset_right = 1152.0
+offset_bottom = 648.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button" type="Button" parent="TextureRect" unique_id=1446944938]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -43.0
+offset_right = 43.0
+offset_bottom = 25.0
+grow_horizontal = 2
 text = "Reset Game"
 
-[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=720993920]
+[node name="TileMapLayer" type="TileMapLayer" parent="TextureRect" unique_id=720993920]
 tile_set = SubResource("TileSet_o4x5r")

@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1790078548
+::res://::1790114361
 README.md::TextFile::-1::1789999105::0::1::::<><><>0<>0<><>::
 ::res://addons/::1787113266
 ::res://addons/godot_super-wakatime/::1787113266
@@ -18,7 +18,7 @@ icon.svg::CompressedTexture2D::5653505140951467421::1787113266::1789940121::1:::
 player.png::CompressedTexture2D::2733649541115122162::1789482401::1789940121::1::::<><><>0<>0<>23ca5a410a41ee31d118697915d20259<>res://.godot/imported/player.png-be2216fcaabb5c62aa2466cd9a5726a8.ctex::
 PPMondwest-Regular.otf::FontFile::7419794937176372283::1784476513::1789940121::1::::<><><>0<>0<>0402ef705a219d6c8c400c84c9eb1dba<>res://.godot/imported/PPMondwest-Regular.otf-222a61c9ed245c2f49b9b81469c029f7.fontdata::
 small-items02.png::CompressedTexture2D::212581805649406276::1789478500::1789940121::1::::<><><>0<>0<>876cd613b0ef06795c3d0033aabdde18<>res://.godot/imported/small-items02.png-310f90747b16e786b9967ea747ea20b2.ctex::
-::res://assets/map/::1790078549
+::res://assets/map/::1790088834
 bombs.png::CompressedTexture2D::242411892090173026::1692560852::1790078549::1::::<><><>0<>0<>8272bc0cc2b5eedc2a6b43c72eea010a<>res://.godot/imported/bombs.png-5235bb751ee48571fecd035bb3d36009.ctex::
 breakable.png::CompressedTexture2D::3338101053217710540::1692560852::1790078549::1::::<><><>0<>0<>78a84bb97ddf829c45c9d586173e5252<>res://.godot/imported/breakable.png-6ea1ff80879d125c5b6a52102772c28b.ctex::
 breakable_0.png::CompressedTexture2D::608439233837612468::1693415876::1790078549::1::::<><><>0<>0<>de1e6367e4480de261d6a98fee77a480<>res://.godot/imported/breakable_0.png-3f0073c8e37520dde6c7389e931a8d80.ctex::
@@ -39,20 +39,20 @@ interactionArea.tscn::PackedScene::53448435941854660::1789796721::0::1::::<><><>
 interaction_area.gd::GDScript::3264636783918450134::1790088167::0::1::::interactionArea<>Area2D<><>0<>0<><>::
 ::res://practice/::1789940027
 ::res://practice/Rumi2009/::1789940027
-::res://scenes/::1790088716
+::res://scenes/::1790088981
 countdown.tscn::PackedScene::8627704471357284572::1789787252::0::1::::<><><>0<>0<><>::uid://l6t84dtrygjd::::res://scripts/countdown.gd
 death_screen.tscn::PackedScene::3704689708222476572::1790076828::0::1::::<><><>0<>0<><>::uid://c6d3fxq7r7il8::::res://scripts/death_screen.gd
+dot_player.gd::GDScript::3043011015514006030::1790078730::0::1::::<>CharacterBody2D<><>0<>0<><>::
 dot_player.tscn::PackedScene::5251913231455274955::1790078750::0::1::::<><><>0<>0<><>::uid://bjmb7gspdbljy::::res://scenes/dot_player.gd<>uid://dymbnn74h8j8j::::res://assets/dotPlayer.png
 main.tscn::PackedScene::3791226112347045705::1790086472::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png<>uid://5sgy0k2htp7b::::res://scenes/player.tscn<>uid://du6lbdeo6jaoi::::res://scenes/countdown.tscn<>uid://b01fn8ugyf1kh::::res://assets/furniture03.png<>uid://da8grec7t6dk::::res://assets/small-items02.png<>uid://05j133viwcy::::res://interaction/interaction area/interactionArea.tscn<>uid://cp4wekc4b2bk::::res://scripts/bedroom_door.gd<>uid://jabi4qet686c::::res://scripts/master_bedroom_door.gd<>uid://dvdolwnunmohh::::res://scripts/bathroom_door.gd
-minigame_1.tscn::PackedScene::3525625554636652954::1790088716::0::1::::<><><>0<>0<><>::uid://c0b6qm5741ps4::::res://scripts/minigame_1.gd<>uid://b1auql804vhq6::::res://assets/map/wall.png
+minigame_1.tscn::PackedScene::3525625554636652954::1790088981::0::1::::<><><>0<>0<><>::uid://c0b6qm5741ps4::::res://scripts/minigame_1.gd<>uid://b1auql804vhq6::::res://assets/map/wall.png
 player.tscn::PackedScene::2143232599493037541::1789804338::0::1::::<><><>0<>0<><>::uid://ckhfd4ivqxx8s::::res://scripts/player.gd<>uid://be7g2qxj1euac::::res://assets/player.png
-dot_player.gd::GDScript::3043011015514006030::1790078730::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://scripts/::1790088716
+::res://scripts/::1790089402
 bathroom_door.gd::GDScript::8640291758894576413::1789746401::0::1::::<>Node2D<><>0<>0<><>::
 bedroom_door.gd::GDScript::173143659514236464::1789743718::0::1::::<>Node2D<><>0<>0<><>::
 countdown.gd::GDScript::837287073154142397::1789788571::0::1::::<>Control<><>0<>0<><>::
 death_screen.gd::GDScript::6956598892426213447::1790076828::0::1::::<>Node2D<><>0<>0<><>::
 global.gd::GDScript::2822594513916818519::1790088170::0::1::::<>Node<><>0<>0<><>::
 master_bedroom_door.gd::GDScript::631776144188711628::1789789214::0::1::::<>Node2D<><>0<>0<><>::
-minigame_1.gd::GDScript::6531538313687371613::1790088716::0::1::::<>Node2D<><>0<>0<><>::
+minigame_1.gd::GDScript::6531538313687371613::1790089402::0::1::::<>Node2D<><>0<>0<><>::
 player.gd::GDScript::5489490926902537896::1789511103::0::1::::Player<>CharacterBody2D<><>0<>0<><>::

@@ -1,6 +1,6 @@
 extends Node2D
 
-@onready var tileMapLayer: TileMapLayer = $TileMapLayer
+@onready var tileMapLayer: TileMapLayer = $TextureRect/TileMapLayer
 
 const ROWS: int = 25
 const COLUMNS: int = 25
@@ -24,13 +24,13 @@ func reset_maze():
 		for c in range(COLUMNS):
 			row.append(1)
 		maze.append(row)
-
+ 
 
 func generate_maze():
 	reset_maze()
 	
-	var start_row = 0
-	var start_col = 0
+	var start_row = 1
+	var start_col = 1
 	maze[start_row][start_col] = 0
 	
 	carve_passage(start_row, start_col)
@@ -58,11 +58,12 @@ func carve_passage(row, col):
 		# Condition to check whether the tile has been explored (0 means it has
 		# already been), and if the row/column numbers stay within the specified
 		# range.
-		if (new_row > 0 and new_col < (ROWS - 1) and new_col > 0 and new_col < (COLUMNS - 1) and maze[new_row][new_col] == 1):
-			maze[new_row][new_col] = 0
-			maze[row + dr / 2][col + dc / 2] = 0
+		if new_row >= 0 and new_row < ROWS and new_col >= 0 and new_col < COLUMNS:
+			if maze[new_row][new_col] == 1:
+				maze[new_row][new_col] = 0
+				maze[row + dr / 2][col + dc / 2] = 0
 			
-			carve_passage(new_row, new_col)
+				carve_passage(new_row, new_col)
 
 func draw_maze():
 	tileMapLayer.clear()
