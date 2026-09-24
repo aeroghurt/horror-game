@@ -214,6 +214,9 @@ graph_offset = Vector2(20.219934, -38.625)
 y_sort_enabled = true
 collision_layer = 2
 script = ExtResource("1_3vyb7")
+current_speed = null
+base_speed = null
+sprint_speed = null
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1376941726]
 position = Vector2(0, -15)

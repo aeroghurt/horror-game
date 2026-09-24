@@ -1036,6 +1036,9 @@ y_sort_enabled = true
 texture_filter = 1
 position = Vector2(373.99442, 228.02441)
 scale = Vector2(4, 4)
+current_speed = 400
+base_speed = 400
+sprint_speed = 550
 
 [node name="walls" type="TileMapLayer" parent="y-sort" unique_id=1216736267]
 y_sort_enabled = true

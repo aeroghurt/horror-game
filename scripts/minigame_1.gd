@@ -1,9 +1,9 @@
 extends Node2D
 
-@onready var tileMapLayer: TileMapLayer = $TextureRect/TileMapLayer
+@onready var tileMapLayer: TileMapLayer = $TileMapLayer
 
-const ROWS: int = 25
-const COLUMNS: int = 25
+const ROWS: int = 49
+const COLUMNS: int = 49
 const WALL: Vector2i = Vector2i(0,0)
 const PATH: Vector2i = Vector2i(1,0)
 
@@ -72,3 +72,7 @@ func draw_maze():
 		for c in range(COLUMNS):
 			var tile_type = WALL if maze[r][c] == 1 else PATH
 			tileMapLayer.set_cell(Vector2i(c, r), 0, tile_type)
+
+
+func _on_button_pressed() -> void:
+	generate_maze()

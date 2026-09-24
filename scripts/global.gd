@@ -1,5 +1,6 @@
 extends Node
 
+var minigame1_score: int = 0
 
 func _ready() -> void:
 	pass # Replace with function body.
