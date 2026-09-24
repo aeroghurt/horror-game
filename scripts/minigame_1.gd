@@ -72,6 +72,8 @@ func draw_maze():
 		for c in range(COLUMNS):
 			var tile_type = WALL if maze[r][c] == 1 else PATH
 			tileMapLayer.set_cell(Vector2i(c, r), 0, tile_type)
+		## get coordinates of paths
+		## get random number for the type of item
 
 
 func _on_button_pressed() -> void:
