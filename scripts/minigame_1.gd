@@ -1,6 +1,7 @@
 extends Node2D
 
 @onready var tileMapLayer: TileMapLayer = $TileMapLayer
+@onready var items_group: Node2D = $items
 
 const ROWS: int = 49
 const COLUMNS: int = 49
@@ -24,7 +25,9 @@ func reset_maze():
 		for c in range(COLUMNS):
 			row.append(1)
 		maze.append(row)
- 
+	for item in items_group.get_children():
+			item.queue_free()
+
 
 func generate_maze():
 	reset_maze()
@@ -51,7 +54,7 @@ func carve_passage(row, col):
 	for dir in directions:
 		var dr = dir[0]
 		var dc = dir[1]
-		
+
 		var new_row = row + dr  
 		var new_col = col + dc
 		
@@ -71,15 +74,17 @@ func draw_maze():
 	for r in range(ROWS):
 		for c in range(COLUMNS):
 			var tile_type = WALL if maze[r][c] == 1 else PATH
-			tileMapLayer.set_cell(Vector2i(c, r), 0, tile_type)
+			tileMapLayer.set_cell(Vector2i(r, c), 0, tile_type)
+			# reminder to self: data gets the atlas of the tile only
 			var data = tileMapLayer.get_cell_atlas_coords(Vector2i(r, c))
-			if data == Vector2i(0,0):
+			var random_num = randi_range(0, 100)
+			if data == Vector2i(1,0) && random_num % 50 == 0:
 				var item = preload("res://scenes/minigame1_items.tscn").instantiate()
-				add_child(item)
-				print("very path")
-				
-		## get coordinates of paths
-		## get random number for the type of item
+				items_group.add_child(item)
+				## get the coordinates of the tile
+				var coords = tileMapLayer.to_global(tileMapLayer.map_to_local(Vector2(r, c)))
+				item.global_position = coords
+
 
 func _on_button_pressed() -> void:
 	generate_maze()
