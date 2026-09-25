@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://d3dyfv7nan41v"]
+
+[ext_resource type="PackedScene" uid="uid://iaktmmmf2q6l" path="res://scenes/test/test_scene_house.tscn" id="1_xhauj"]
+
+[node name="TestSceneHouseTileMap" unique_id=1015299514 instance=ExtResource("1_xhauj")]
