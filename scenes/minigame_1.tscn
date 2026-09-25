@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://bqh3sjxc27dgs"]
+
+[ext_resource type="Script" uid="uid://c0b6qm5741ps4" path="res://scripts/minigame_1.gd" id="1_tk6fs"]
+[ext_resource type="Texture2D" uid="uid://b1auql804vhq6" path="res://assets/map/wall.png" id="2_og05i"]
+[ext_resource type="PackedScene" uid="uid://cg3ciju1cfcq2" path="res://scenes/dot_player.tscn" id="3_lmjug"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_og05i"]
+texture = ExtResource("2_og05i")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_o4x5r"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_og05i")
+
+[node name="minigame1" type="Node2D" unique_id=877077236]
+script = ExtResource("1_tk6fs")
+
+[node name="Button" type="Button" parent="." unique_id=1446944938]
+offset_left = 937.0
+offset_top = 107.0
+offset_right = 1089.0
+offset_bottom = 147.0
+theme_override_font_sizes/font_size = 30
+text = "Reset Game"
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=720993920]
+position = Vector2(616, 286)
+tile_set = SubResource("TileSet_o4x5r")
+
+[node name="dotPlayer" parent="." unique_id=2015654057 instance=ExtResource("3_lmjug")]
+position = Vector2(638, 308)
+
+[node name="Camera2D" type="Camera2D" parent="dotPlayer" unique_id=1703327336]
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -12,14 +12,13 @@ class_name Player
 const IS_MOVING = "parameters/conditions/is_moving"
 
 var last_direction := Vector2.DOWN
+var input_dir: Vector2
 
 func _ready() -> void:
 	animation_tree.set_active(true)
 	animation_playback.travel("idle")
 
 func _physics_process(_delta: float) -> void:
-	var input_dir = Input.get_vector("left", "right", "up", "down")
-	
 	if input_dir.length_squared() > 0.01:
 		velocity = input_dir.normalized() * current_speed
 		last_direction = input_dir.normalized()
@@ -44,3 +43,7 @@ func _physics_process(_delta: float) -> void:
 		animation_playback.travel("idle")
 		
 	move_and_slide()
+
+
+func _unhandled_key_input(event: InputEvent) -> void:
+	input_dir = Input.get_vector("left", "right", "up", "down")

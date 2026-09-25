@@ -60,6 +60,7 @@ func _input(event):
 			label.hide()
 			
 			await active_areas[0].interact.call()
+			# Waits a second before interact can be called again
 			await get_tree().create_timer(1.0).timeout
 			can_interact = true
 
