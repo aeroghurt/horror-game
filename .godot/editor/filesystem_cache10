@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1790259592
+::res://::1790328764
 README.md::TextFile::-1::1789999105::0::1::::<><><>0<>0<><>::
 ::res://addons/::1787113266
 ::res://addons/godot_super-wakatime/::1787113266
@@ -39,14 +39,15 @@ interactionArea.tscn::PackedScene::53448435941854660::1789796721::0::1::::<><><>
 interaction_area.gd::GDScript::3264636783918450134::1790088167::0::1::::interactionArea<>Area2D<><>0<>0<><>::
 ::res://practice/::1789940027
 ::res://practice/Rumi2009/::1789940027
-::res://scenes/::1790259592
+::res://scenes/::1790265075
 countdown.tscn::PackedScene::8627704471357284572::1789787252::0::1::::<><><>0<>0<><>::uid://l6t84dtrygjd::::res://scripts/countdown.gd
 death_screen.tscn::PackedScene::3704689708222476572::1790076828::0::1::::<><><>0<>0<><>::uid://c6d3fxq7r7il8::::res://scripts/death_screen.gd
 dot_player.tscn::PackedScene::5251913231455274955::1790259592::0::1::::<><><>0<>0<><>::uid://bjmb7gspdbljy::::res://scripts/dot_player.gd<>uid://dymbnn74h8j8j::::res://assets/dotPlayer.png
 main.tscn::PackedScene::3791226112347045705::1790257000::0::1::::<><><>0<>0<><>::uid://be46vyybyl1hs::::res://assets/floors-walls02.png<>uid://5sgy0k2htp7b::::res://scenes/player.tscn<>uid://du6lbdeo6jaoi::::res://scenes/countdown.tscn<>uid://b01fn8ugyf1kh::::res://assets/furniture03.png<>uid://da8grec7t6dk::::res://assets/small-items02.png<>uid://05j133viwcy::::res://interaction/interaction area/interactionArea.tscn<>uid://cp4wekc4b2bk::::res://scripts/bedroom_door.gd<>uid://jabi4qet686c::::res://scripts/master_bedroom_door.gd<>uid://dvdolwnunmohh::::res://scripts/bathroom_door.gd
-minigame_1.tscn::PackedScene::3525625554636652954::1790259586::0::1::::<><><>0<>0<><>::uid://c0b6qm5741ps4::::res://scripts/minigame_1.gd<>uid://b1auql804vhq6::::res://assets/map/wall.png<>uid://cg3ciju1cfcq2::::res://scenes/dot_player.tscn
+minigame1_items.tscn::PackedScene::206601544978905331::1790265075::0::1::::<><><>0<>0<><>::uid://cpmvdjaa4pcai::::res://scripts/minigame1_items.gd<>uid://cmsunywnrf3cr::::res://assets/icon.svg<>uid://bntabimip4wa3::::res://assets/map/breakable.png
+minigame_1.tscn::PackedScene::3525625554636652954::1790259990::0::1::::<><><>0<>0<><>::uid://c0b6qm5741ps4::::res://scripts/minigame_1.gd<>uid://b1auql804vhq6::::res://assets/map/wall.png<>uid://cg3ciju1cfcq2::::res://scenes/dot_player.tscn
 player.tscn::PackedScene::2143232599493037541::1790255570::0::1::::<><><>0<>0<><>::uid://ckhfd4ivqxx8s::::res://scripts/player.gd<>uid://be7g2qxj1euac::::res://assets/player.png
-::res://scripts/::1790259592
+::res://scripts/::1790265075
 bathroom_door.gd::GDScript::8640291758894576413::1789746401::0::1::::<>Node2D<><>0<>0<><>::
 bedroom_door.gd::GDScript::173143659514236464::1789743718::0::1::::<>Node2D<><>0<>0<><>::
 countdown.gd::GDScript::837287073154142397::1789788571::0::1::::<>Control<><>0<>0<><>::
@@ -54,6 +55,6 @@ death_screen.gd::GDScript::6956598892426213447::1790076828::0::1::::<>Node2D<><>
 dot_player.gd::GDScript::3043011015514006030::1790258888::0::1::::<>CharacterBody2D<><>0<>0<><>::
 global.gd::GDScript::2822594513916818519::1790258171::0::1::::<>Node<><>0<>0<><>::
 master_bedroom_door.gd::GDScript::631776144188711628::1789789214::0::1::::<>Node2D<><>0<>0<><>::
-minigame_1.gd::GDScript::6531538313687371613::1790259318::0::1::::<>Node2D<><>0<>0<><>::
+minigame1_items.gd::GDScript::5851727441984712536::1790265075::0::1::::<>Node<><>0<>0<><>::
+minigame_1.gd::GDScript::6531538313687371613::1790264479::0::1::::<>Node2D<><>0<>0<><>::
 player.gd::GDScript::5489490926902537896::1790257001::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
-minigame1_items.gd::GDScript::5851727441984712536::1790259585::0::1::::<>Node<><>0<>0<><>::

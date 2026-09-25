@@ -72,9 +72,14 @@ func draw_maze():
 		for c in range(COLUMNS):
 			var tile_type = WALL if maze[r][c] == 1 else PATH
 			tileMapLayer.set_cell(Vector2i(c, r), 0, tile_type)
+			var data = tileMapLayer.get_cell_atlas_coords(Vector2i(r, c))
+			if data == Vector2i(0,0):
+				var item = preload("res://scenes/minigame1_items.tscn").instantiate()
+				add_child(item)
+				print("very path")
+				
 		## get coordinates of paths
 		## get random number for the type of item
-
 
 func _on_button_pressed() -> void:
 	generate_maze()
