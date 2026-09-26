@@ -7,6 +7,7 @@
 radius = 5.0
 
 [node name="dotPlayer" type="CharacterBody2D" unique_id=2015654057]
+collision_layer = 2
 script = ExtResource("1_08fpb")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1981634663]

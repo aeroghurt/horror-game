@@ -2,6 +2,7 @@ extends Node2D
 
 @onready var tileMapLayer: TileMapLayer = $TileMapLayer
 @onready var items_group: Node2D = $items
+@onready var label: Label = $CanvasLayer/Label
 
 const ROWS: int = 49
 const COLUMNS: int = 49
@@ -15,7 +16,9 @@ func _ready() -> void:
 
 
 func _process(_delta: float) -> void:
-	pass
+	## Checks whether minigame_1 score has loaded yet
+	if label:
+		label.text = str(Global.minigame1_score)
 
 
 func reset_maze():
@@ -26,7 +29,7 @@ func reset_maze():
 			row.append(1)
 		maze.append(row)
 	for item in items_group.get_children():
-			item.queue_free()
+		item.queue_free()
 
 
 func generate_maze():
@@ -78,7 +81,7 @@ func draw_maze():
 			# reminder to self: data gets the atlas of the tile only
 			var data = tileMapLayer.get_cell_atlas_coords(Vector2i(r, c))
 			var random_num = randi_range(0, 100)
-			if data == Vector2i(1,0) && random_num % 50 == 0:
+			if data == Vector2i(1,0) && random_num == 42:
 				var item = preload("res://scenes/minigame1_items.tscn").instantiate()
 				items_group.add_child(item)
 				## get the coordinates of the tile

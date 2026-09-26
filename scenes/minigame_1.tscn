@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://c0b6qm5741ps4" path="res://scripts/minigame_1.gd" id="1_tk6fs"]
 [ext_resource type="Texture2D" uid="uid://b1auql804vhq6" path="res://assets/map/wall.png" id="2_og05i"]
 [ext_resource type="PackedScene" uid="uid://cg3ciju1cfcq2" path="res://scenes/dot_player.tscn" id="3_lmjug"]
+[ext_resource type="FontFile" uid="uid://ddyg658spyjkt" path="res://assets/PPMondwest-Regular.otf" id="4_v5ebm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_og05i"]
 texture = ExtResource("2_og05i")
@@ -24,6 +25,7 @@ offset_right = 467.0
 offset_bottom = -233.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("4_v5ebm")
 theme_override_font_sizes/font_size = 30
 text = "Reset Game"
 
@@ -32,12 +34,21 @@ position = Vector2(-1, 1)
 tile_set = SubResource("TileSet_o4x5r")
 
 [node name="dotPlayer" parent="." unique_id=2015654057 instance=ExtResource("3_lmjug")]
-position = Vector2(0, 1)
+position = Vector2(21, 18)
 
 [node name="Camera2D" type="Camera2D" parent="dotPlayer" unique_id=1703327336]
 
 [node name="items" type="Node2D" parent="." unique_id=384223788]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=579574089]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=1618324408]
+offset_left = 1040.0
+offset_top = 32.0
+offset_right = 1109.0
+offset_bottom = 66.0
+theme_override_fonts/font = ExtResource("4_v5ebm")
+theme_override_font_sizes/font_size = 32
+text = "score"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
